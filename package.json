@@ -1,0 +1,49 @@
+{
+  "name": "knoxville-world-fair",
+  "version": "1.0.0",
+  "description": "CRUD Single Web Application, developed with ReactJS. Inspired on an episode of \"The Simpsons\" called \"Bart on the road\".",
+  "main": "src/index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "start-dev": "webpack-dev-server --open",
+    "create-dev": "webpack",
+    "recreate-dev": "sudo rm -rf dist/ && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatUgarte/Knoxville-World-Fair.git"
+  },
+  "keywords": [
+    "Simpsons",
+    "React",
+    "JavaScript",
+    "Knoxville"
+  ],
+  "author": "Pat Ugarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatUgarte/Knoxville-World-Fair/issues"
+  },
+  "homepage": "https://github.com/PatUgarte/Knoxville-World-Fair#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
