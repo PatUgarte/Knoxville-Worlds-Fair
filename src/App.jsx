@@ -1,10 +1,12 @@
 import React from "react";
 
+import Badge from "./components/Badge.jsx";
+
+import "./global.css";
+
 const App = () => {
     return (
-        <h1>
-            Hola, Feria Mundial de Knoxville - Tennesee
-        </h1>
+        <Badge />
     );
 }
 
