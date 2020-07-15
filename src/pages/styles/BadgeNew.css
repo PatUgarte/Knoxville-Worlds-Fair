@@ -1,0 +1,47 @@
+.BadgeNew__Container {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: [hero-start] 4rem [hero-middle] 12rem [hero-end] auto [height-end];
+    grid-template-columns: [width-start] 50% [width-middle] 50% [width-end];
+}
+
+.BadgeNew__Hero-Container {
+    display: grid;
+    grid-row-start: hero-start;
+    grid-row-end: hero-end;
+    grid-column-start: width-start;
+    grid-column-end: width-end;
+    background: url('../../images/stars.svg'), #141425;
+    background-repeat: repeat;
+}
+
+.BadgeNew__Hero-Container--logo {
+    display: grid;
+    justify-items: center;
+    width: 50%;
+    height: auto;
+}
+
+.BadgeNew__Hero-Container--logo img {
+    height: 100%;
+}
+
+.BadgeNew__Badge-Container {
+    grid-row-start: hero-end;
+    grid-row-end: height-end;
+    grid-column-start: width-start;
+    grid-column-end: width-middle;
+    margin: 3rem auto;
+    width: 60%;
+}
+
+.BadgeNew__BadgeForm-Container {
+    height: 100%;
+    width: 60%;
+    grid-row-start: hero-middle;
+    grid-row-end: height-end;
+    grid-column-start: width-middle;
+    grid-column-end: width-end;
+    margin: 0 10vw;
+    justify-self: center;
+}
