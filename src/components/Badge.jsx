@@ -37,7 +37,7 @@ const Badge = (props) => {
                 </div>
             </div>
             <div className="BadgeFooter">
-                <p>#KnoxvilleWorldsFair1982</p>
+                <p>#KnoxvilleWorldFair1982</p>
             </div>
         </div>
     );

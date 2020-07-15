@@ -6,7 +6,7 @@ import BadgeForm from "../components/BadgeForm.jsx";
 
 import cartoonLogoImage from "../images/kwf-cartoon-logo.png";
 
-import "./styles/BadgeNew.css";
+import "./styles/NewBadge.css";
 
 const BadgeNew = () => {
 
@@ -31,7 +31,7 @@ const BadgeNew = () => {
             <div className="BadgeNew__Container">
                 <div className="BadgeNew__Hero-Container">
                     <div className="BadgeNew__Hero-Container--logo">
-                        <img src={cartoonLogoImage} alt="" />
+                        <img src={cartoonLogoImage} alt="World Fair Logo" />
                     </div>
                 </div>
                 <div className="BadgeNew__Badge-Container">

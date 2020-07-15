@@ -14,11 +14,11 @@ const Navbar = () => {
                 <img
                     className="Navbar__brand--logo"
                     src={simpleLogoImage}
-                    alt="World's Fair Logo"
+                    alt="World Fair Logo"
                 />
                 <div className="Navbar__brand--title">
                     <span>Knoxville </span>
-                    <span> World's Fair</span>
+                    <span> World Fair</span>
                 </div>
             </a>
         </div>

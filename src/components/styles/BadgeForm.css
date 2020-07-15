@@ -40,6 +40,8 @@
 
 .BadgeForm__Form--Button {
     width: 50%;
-    align-self: center;
+    font-size: 18px;
     margin-top: 15px;
+    padding: 10px;
+    align-self: center;
 }

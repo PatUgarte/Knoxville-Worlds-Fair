@@ -1,0 +1,65 @@
+.AllBadges__Container {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: [hero-start] 16rem [hero-end] auto [height-end];
+}
+
+.AllBadges__Hero-Container {
+    display: grid;
+    grid-row-start: hero-start;
+    grid-row-end: hero-end;
+    grid-template-rows: [logo-start] 70% [logo-end] 30% [search-bar-end];
+    background: url('../../images/stars.svg'), #141425;
+    background-repeat: repeat;
+}
+
+.AllBadges__Hero-Container--logo {
+    height: auto;
+    display: grid;
+    grid-row-start: logo-start;
+    grid-row-end: logo-end;
+    justify-items: center;
+}
+
+.AllBadges__Hero-Container--logo img {
+    height: 100%;
+}
+
+.AllBadges__Hero-Container--search-bar {
+    grid-row-start: logo-end;
+    grid-row-end: search-bar-end;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.AllBadges__Hero-Container--search-bar input {
+    width: 30%;
+    padding: 0 10px;
+    font-size: 16px;
+    border-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+
+.AllBadges__Hero-Container--search-bar button {
+    font-size: 16px;
+    padding: 0 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.AllBadges__Card-Container {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.AllBadges__Card-Container button {
+    font-size: 17px;
+    padding: 10px 20px;
+    margin: 20px;
+    float: right;
+}

@@ -1,12 +1,12 @@
 import React from "react";
 
-import BadgeNew from "./pages/BadgeNew.jsx";
+import AllBadges from "./pages/AllBadges.jsx";
 
 import "./global.css";
 
 const App = () => {
     return (
-        <BadgeNew />
+        <AllBadges />
     );
 }
 
