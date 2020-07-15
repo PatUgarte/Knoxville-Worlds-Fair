@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import simpleLogoImage from "../images/kwf-simple-logo.png";
 
@@ -7,9 +8,9 @@ import "./styles/Navbar.css";
 const Navbar = () => {
     return (
         <div className="Navbar">
-            <a
+            <Link
                 className="Navbar__brand"
-                href="/"
+                to="/badge/all"
             >
                 <img
                     className="Navbar__brand--logo"
@@ -20,7 +21,7 @@ const Navbar = () => {
                     <span>Knoxville </span>
                     <span> World Fair</span>
                 </div>
-            </a>
+            </Link>
         </div>
     )
 }
